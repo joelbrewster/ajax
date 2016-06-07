@@ -1,0 +1,46 @@
+
+body {
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: black;
+  color: white;
+}
+
+.post {
+  width: 25%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 32%;
+  /* transform: skewX(-9deg); */
+}
+
+#posts {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 90%;
+  /* flex-direction: row */
+  /* -webkit-transform: skewX(-50deg); */
+  /* -moz-transform: skewX(-50deg); */
+  /* -ms-transform: skewX(-50deg); */
+  /* -o-transform: skewX(-50deg); */
+}
+
+#footer {
+  postion: fixed;
+  bottom: 0;
+  background: black;
+  height: 35px;
+  width: 100%;
+}
+
+#next {
+  postition: absolute;
+  right: 0;
+
+}
