@@ -44,3 +44,7 @@ button {
   right: 0;
 
 }
+
+$prev {
+  display: none;
+}
